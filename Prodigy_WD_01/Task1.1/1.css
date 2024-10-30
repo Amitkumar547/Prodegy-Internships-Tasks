@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #28a745;
+    /* Green */
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu-toggle {
+    display: none;
+    /* Hidden by default */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background: white;
+    margin: 3px 0;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x400?text=Welcome+to+Healthify') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 10px;
+    /* Adjusted padding */
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    /* Increased space below the heading */
+    font-size: 2.5rem;
+    /* Adjust font size as needed */
+}
+
+.hero p {
+    margin-bottom: 20px;
+    /* Space between paragraphs */
+    font-size: 1.2rem;
+    /* Adjust font size as needed */
+}
+
+.cta-button {
+    background: #ff5722;
+    /* Orange */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.features,
+.about,
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    /* Light grey */
+}
+
+h2 {
+    color: #28a745;
+    /* Green */
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 8px;
+    background: white;
+    /* White background for features */
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
+
+#submit {
+    margin-top: 0.5rem;
+}
+
+#follow {
+    margin-top: 0.5rem;
+}
+
+
+/* .social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #28a745;
+    Green 
+    font-size: 1.5rem;
+     Adjust size as needed 
+    transition: color 0.3s;
+}*/
+
+.social-links {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a:hover {
+    color: #ff5722;
+    /* Change color on hover */
+}
+
+.links {
+    align-items: center;
+    justify-content: center;
+}
+
+.links i {
+    margin-left: 0.5rem;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Form Styles */
+
+input,
+textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+button {
+    background: #28a745;
+    /* Green */
+}

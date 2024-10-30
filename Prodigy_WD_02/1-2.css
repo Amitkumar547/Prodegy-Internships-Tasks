@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #06652acf, #3eb407b8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: Black Rose;
+}
+
+.timer {
+    font-size: 48px;
+    margin: 20px 0;
+    padding: 15px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.controls {
+    display: flex;
+    /* Flexbox for better button alignment */
+    justify-content: center;
+    /* Center the buttons */
+    flex-wrap: wrap;
+    /* Allow buttons to wrap */
+}
+
+.control-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.control-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.laps {
+    margin-top: 20px;
+    color: white;
+}
+
+.lap-item {
+    margin: 5px 0;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+}
